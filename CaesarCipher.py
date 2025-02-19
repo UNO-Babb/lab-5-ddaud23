@@ -18,7 +18,9 @@ def encode(message, key):
 
     return secret
 
-#def decode(message, key):
+def decode(message, key):
+     plaintext = (message, -key)
+     return plaintext
     #We will want to decode the message here.
 
 def main():
